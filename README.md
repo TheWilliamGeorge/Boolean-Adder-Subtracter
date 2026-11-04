@@ -19,6 +19,6 @@ Usually, such a flip-flop uses a clock signal to change its state. When the cloc
 
 ---
 
-<img width="6862" height="2332" alt="4-bit-adder-subtracter (2)" src="https://github.com/user-attachments/assets/3f07418a-4a27-4bbe-b490-00d4c522fd3a" />
+<img width="5198" height="647" alt="just multiplexers" src="https://github.com/user-attachments/assets/d69ea3c1-3b2b-4cb1-85bb-e51402e08b83" />
 
 The final part of this system that I implemented today is the ability to calculate with the value stored in memory. To do this, we need to be able to take input from either the Input A switches, or from memory, leaving B unchanged (since we can turn B into a negative number to be subtracted. This is how a real calculator behaves). To do this, the circuit uses four 2-to-1 multiplexers. These can be seen above the A and B input switches on the above image. They take input from A, the ACC and the memory-read mode switch. They output the values from the Input A switches **UNLESS** the mode switch is high, in which case, they override the A values with the values from the ACC. This passes these values back into the adder as input A.
