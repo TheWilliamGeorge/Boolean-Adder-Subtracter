@@ -1,5 +1,0 @@
-|Item                    |Qty|Supplier |Cost/item|Total Cost|link                                                                                           |
-|------------------------|---|---------|---------|----------|-----------------------------------------------------------------------------------------------|
-|LCSC Components         |1  |LCSC     |$12.12   |$12.12    |https://lcsc.com                                                                               |
-|Breadboard kit          |1  |Amazon UK|$13.34   |$13.34    |https://www.amazon.co.uk/HUAREW-Breadboard-Supply-Battery-tie-Points/dp/B09ZTVV5WJ?s=industrial|
-|Estimated total shipping|1  |         |         |$4.69     |                                                                                               |
