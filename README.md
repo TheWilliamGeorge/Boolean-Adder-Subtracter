@@ -1,6 +1,19 @@
 # Boolean-Adder-Subtracter
 A simple 4-bit adder/subtracter using only logic gates
 
+- BOM: [BOM.md](BOM.md)
+- BOM: [BOM.csv](BOM.csv)
+- Journal: [JOURNAL.md](JOURNAL.md)
+- Logic gate design: [logic.png](logic.png)
+- Logic gate design source file: [mokxi.json](mokxi.json)
+- Breadboard design: [breadboard.png](breadboard.png)
+- No source file for breadboard since TinkerCad won't let you export them
+
+## What is this?
+A boolean adder uses logic gates to add binary values. In this project, I have implemented the theory of boolean adders that I learned in my Computer Science A-Level Studies in a real-world scenario - on a breadboard. Breadboards are super useful for prototyping and building electronics projects without soldering, making debugging much easier. 
+This project can add and also subtract 2 4-bit numbers (so numbers up to 15). It also has a memory module to store and display the last calculation. 
+In the original logic gates design, it was also going to read the values back from memory but I couldn't get this fully working, or fit it within the project scope, so decided against it. I was also going to implement the memory only using NAND gates and inverters, but again, due to complexity and budget considerations, I decided to use dedicated TI flip flop ICs.
+
 
 ## How it works
 Okay, prepare yourself - this is going to be complicated. 
@@ -22,3 +35,16 @@ Usually, such a flip-flop uses a clock signal to change its state. When the cloc
 <img width="5198" height="647" alt="just multiplexers" src="https://github.com/user-attachments/assets/d69ea3c1-3b2b-4cb1-85bb-e51402e08b83" />
 
 The final part of this system that I implemented today is the ability to calculate with the value stored in memory. To do this, we need to be able to take input from either the Input A switches, or from memory, leaving B unchanged (since we can turn B into a negative number to be subtracted. This is how a real calculator behaves). To do this, the circuit uses four 2-to-1 multiplexers. These can be seen above the A and B input switches on the above image. They take input from A, the ACC and the memory-read mode switch. They output the values from the Input A switches **UNLESS** the mode switch is high, in which case, they override the A values with the values from the ACC. This passes these values back into the adder as input A.
+
+## Images
+The full logic design:
+
+<img width="6862" height="2332" alt="image" src="https://github.com/user-attachments/assets/9d0589b7-1492-4831-9700-5bb912d13b78" />
+
+The full breadboard design:
+
+<img width="1984" height="1148" alt="image" src="https://github.com/user-attachments/assets/e7d79814-c27e-4f9e-870f-1a8f92483e00" />
+
+The breadboard calculating a sum while a previous result is stored in memory, inside the Tinkercad simulator:
+
+<img width="1642" height="1020" alt="image" src="https://github.com/user-attachments/assets/42946823-0252-47d8-8ba7-4112ec21fbab" />
