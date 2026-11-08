@@ -9,6 +9,8 @@ A simple 4-bit adder/subtracter using only logic gates
 - Breadboard design: [breadboard.png](breadboard.png)
 - No source file for breadboard since TinkerCad won't let you export them
 
+*ONCE I'VE BUILT IT, AN IMAGE WILL GO HERE*
+
 ## What is this?
 A boolean adder uses logic gates to add binary values. In this project, I have implemented the theory of boolean adders that I learned in my Computer Science A-Level Studies in a real-world scenario - on a breadboard. Breadboards are super useful for prototyping and building electronics projects without soldering, making debugging much easier. 
 This project can add and also subtract 2 4-bit numbers (so numbers up to 15). It also has a memory module to store and display the last calculation. 
