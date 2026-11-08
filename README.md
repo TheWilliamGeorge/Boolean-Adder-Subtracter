@@ -29,12 +29,14 @@ The input B is XORd with a control signal, K, to allow subtraction. The easiest 
 
 The second part of this system is the memory. I have implemented a basic 5-bit accumulator (ACC) to store the result of the previous calculation. This is again done only with logic gates. The ACC is made up of 5 Master-Slave D Flip-Flops, each taking input from the output of the four adders and the fourth carry out bit. Where this gets clever is how values are added to the accumulator. 
 Usually, such a flip-flop uses a clock signal to change its state. When the clock signal is low, the state is locked, no matter what signal goes into the input. However, when the clock signal is high, the value can be changed to match the input signal. I only want my accumulator to store the value once the calculation is done. The output LEDs light up and change as you enter the numbers to calculate with, hence the need for a master-slave design. Instead of a clock giving the write-allow signal, though, a button provides it. It functions in exactly the same way, but implements the functionality of a STORE button. 
+This feature had to be reduced to pre-build flip-flop ICs due to budget and scope limitations.
 
 ---
 
 <img width="5198" height="647" alt="just multiplexers" src="https://github.com/user-attachments/assets/d69ea3c1-3b2b-4cb1-85bb-e51402e08b83" />
 
-The final part of this system that I implemented today is the ability to calculate with the value stored in memory. To do this, we need to be able to take input from either the Input A switches, or from memory, leaving B unchanged (since we can turn B into a negative number to be subtracted. This is how a real calculator behaves). To do this, the circuit uses four 2-to-1 multiplexers. These can be seen above the A and B input switches on the above image. They take input from A, the ACC and the memory-read mode switch. They output the values from the Input A switches **UNLESS** the mode switch is high, in which case, they override the A values with the values from the ACC. This passes these values back into the adder as input A.
+The final part of this system is the ability to calculate with the value stored in memory. To do this, we need to be able to take input from either the Input A switches, or from memory, leaving B unchanged (since we can turn B into a negative number to be subtracted. This is how a real calculator behaves). To do this, the circuit uses four 2-to-1 multiplexers. These can be seen above the A and B input switches on the above image. They take input from A, the ACC and the memory-read mode switch. They output the values from the Input A switches **UNLESS** the mode switch is high, in which case, they override the A values with the values from the ACC. This passes these values back into the adder as input A.
+Sadly this feature had to be cut due to budget and scope limitations.
 
 ## Images
 The full logic design:
