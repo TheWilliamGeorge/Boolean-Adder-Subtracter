@@ -1,0 +1,4728 @@
+{
+  "version": 1,
+  "name": "4-Bit Adder/Subtracter No Read from Mem",
+  "parts": [
+    {
+      "id": "gate1",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": 320,
+      "y": 280,
+      "rot": 0
+    },
+    {
+      "id": "sw1",
+      "type": "slideswitch",
+      "props": {},
+      "x": 200,
+      "y": -340,
+      "rot": 0
+    },
+    {
+      "id": "gnd1",
+      "type": "gnd",
+      "props": {},
+      "x": 20,
+      "y": 320,
+      "rot": 0
+    },
+    {
+      "id": "vcc1",
+      "type": "vcc",
+      "props": {
+        "voltage": 5
+      },
+      "x": 120,
+      "y": 220,
+      "rot": 0
+    },
+    {
+      "id": "gate2",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": 520,
+      "y": 300,
+      "rot": 0
+    },
+    {
+      "id": "gate3",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": 520,
+      "y": 500,
+      "rot": 0
+    },
+    {
+      "id": "gate4",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": 260,
+      "y": 780,
+      "rot": 0
+    },
+    {
+      "id": "gate5",
+      "type": "gate",
+      "props": {
+        "function": "or"
+      },
+      "x": 680,
+      "y": 520,
+      "rot": 0
+    },
+    {
+      "id": "led1",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": 780,
+      "y": 300,
+      "rot": 0
+    },
+    {
+      "id": "r1",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": 660,
+      "y": 320,
+      "rot": 0
+    },
+    {
+      "id": "gnd2",
+      "type": "gnd",
+      "props": {},
+      "x": 800,
+      "y": 400,
+      "rot": 0
+    },
+    {
+      "id": "gate6",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -960,
+      "y": 240,
+      "rot": 0
+    },
+    {
+      "id": "sw4",
+      "type": "slideswitch",
+      "props": {},
+      "x": -1080,
+      "y": -320,
+      "rot": 0
+    },
+    {
+      "id": "gnd4",
+      "type": "gnd",
+      "props": {},
+      "x": -1260,
+      "y": 280,
+      "rot": 0
+    },
+    {
+      "id": "vcc2",
+      "type": "vcc",
+      "props": {
+        "voltage": 5
+      },
+      "x": -1160,
+      "y": 180,
+      "rot": 0
+    },
+    {
+      "id": "gate7",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -760,
+      "y": 260,
+      "rot": 0
+    },
+    {
+      "id": "gate8",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": -760,
+      "y": 460,
+      "rot": 0
+    },
+    {
+      "id": "gate9",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": -1020,
+      "y": 740,
+      "rot": 0
+    },
+    {
+      "id": "gate10",
+      "type": "gate",
+      "props": {
+        "function": "or"
+      },
+      "x": -600,
+      "y": 480,
+      "rot": 0
+    },
+    {
+      "id": "led3",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -500,
+      "y": 260,
+      "rot": 0
+    },
+    {
+      "id": "r3",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -620,
+      "y": 280,
+      "rot": 0
+    },
+    {
+      "id": "gnd5",
+      "type": "gnd",
+      "props": {},
+      "x": -480,
+      "y": 360,
+      "rot": 0
+    },
+    {
+      "id": "gate11",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -2080,
+      "y": 200,
+      "rot": 0
+    },
+    {
+      "id": "sw6",
+      "type": "slideswitch",
+      "props": {},
+      "x": -2200,
+      "y": -320,
+      "rot": 0
+    },
+    {
+      "id": "gnd3",
+      "type": "gnd",
+      "props": {},
+      "x": -2380,
+      "y": 240,
+      "rot": 0
+    },
+    {
+      "id": "vcc3",
+      "type": "vcc",
+      "props": {
+        "voltage": 5
+      },
+      "x": -2280,
+      "y": 140,
+      "rot": 0
+    },
+    {
+      "id": "gate12",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -1880,
+      "y": 220,
+      "rot": 0
+    },
+    {
+      "id": "gate13",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": -1880,
+      "y": 420,
+      "rot": 0
+    },
+    {
+      "id": "gate14",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": -2140,
+      "y": 700,
+      "rot": 0
+    },
+    {
+      "id": "gate15",
+      "type": "gate",
+      "props": {
+        "function": "or"
+      },
+      "x": -1720,
+      "y": 440,
+      "rot": 0
+    },
+    {
+      "id": "led2",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -1620,
+      "y": 220,
+      "rot": 0
+    },
+    {
+      "id": "r2",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -1740,
+      "y": 240,
+      "rot": 0
+    },
+    {
+      "id": "gnd7",
+      "type": "gnd",
+      "props": {},
+      "x": -1600,
+      "y": 320,
+      "rot": 0
+    },
+    {
+      "id": "gate16",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -3240,
+      "y": 220,
+      "rot": 0
+    },
+    {
+      "id": "sw8",
+      "type": "slideswitch",
+      "props": {},
+      "x": -3360,
+      "y": -300,
+      "rot": 0
+    },
+    {
+      "id": "gnd6",
+      "type": "gnd",
+      "props": {},
+      "x": -3540,
+      "y": 260,
+      "rot": 0
+    },
+    {
+      "id": "vcc4",
+      "type": "vcc",
+      "props": {
+        "voltage": 5
+      },
+      "x": -3440,
+      "y": 160,
+      "rot": 0
+    },
+    {
+      "id": "gate17",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -3040,
+      "y": 240,
+      "rot": 0
+    },
+    {
+      "id": "gate18",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": -3040,
+      "y": 440,
+      "rot": 0
+    },
+    {
+      "id": "gate19",
+      "type": "gate",
+      "props": {
+        "function": "and"
+      },
+      "x": -3300,
+      "y": 720,
+      "rot": 0
+    },
+    {
+      "id": "gate20",
+      "type": "gate",
+      "props": {
+        "function": "or"
+      },
+      "x": -2880,
+      "y": 460,
+      "rot": 0
+    },
+    {
+      "id": "led4",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -2780,
+      "y": 240,
+      "rot": 0
+    },
+    {
+      "id": "r4",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -2900,
+      "y": 260,
+      "rot": 0
+    },
+    {
+      "id": "gnd9",
+      "type": "gnd",
+      "props": {},
+      "x": -2760,
+      "y": 340,
+      "rot": 0
+    },
+    {
+      "id": "led6",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -2620,
+      "y": 460,
+      "rot": 0
+    },
+    {
+      "id": "r6",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -2740,
+      "y": 480,
+      "rot": 0
+    },
+    {
+      "id": "gnd10",
+      "type": "gnd",
+      "props": {},
+      "x": -2600,
+      "y": 560,
+      "rot": 0
+    },
+    {
+      "id": "sw10",
+      "type": "slideswitch",
+      "props": {},
+      "x": 1100,
+      "y": 60,
+      "rot": 0
+    },
+    {
+      "id": "vcc5",
+      "type": "vcc",
+      "props": {
+        "voltage": 5
+      },
+      "x": 1140,
+      "y": 140,
+      "rot": 180
+    },
+    {
+      "id": "gnd8",
+      "type": "gnd",
+      "props": {},
+      "x": 1100,
+      "y": 140,
+      "rot": 0
+    },
+    {
+      "id": "gate21",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -100,
+      "y": -120,
+      "rot": 90
+    },
+    {
+      "id": "gate22",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -1400,
+      "y": -120,
+      "rot": 90
+    },
+    {
+      "id": "gate23",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -2520,
+      "y": -120,
+      "rot": 90
+    },
+    {
+      "id": "gate24",
+      "type": "gate",
+      "props": {
+        "function": "xor"
+      },
+      "x": -3700,
+      "y": -120,
+      "rot": 90
+    },
+    {
+      "id": "sw3",
+      "type": "slideswitch",
+      "props": {},
+      "x": -1400,
+      "y": -340,
+      "rot": 0
+    },
+    {
+      "id": "sw5",
+      "type": "slideswitch",
+      "props": {},
+      "x": -100,
+      "y": -360,
+      "rot": 0
+    },
+    {
+      "id": "sw2",
+      "type": "slideswitch",
+      "props": {},
+      "x": -2520,
+      "y": -340,
+      "rot": 0
+    },
+    {
+      "id": "sw7",
+      "type": "slideswitch",
+      "props": {},
+      "x": -3700,
+      "y": -320,
+      "rot": 0
+    },
+    {
+      "id": "led5",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": 1560,
+      "y": 60,
+      "rot": 0
+    },
+    {
+      "id": "r5",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": 1440,
+      "y": 80,
+      "rot": 0
+    },
+    {
+      "id": "gnd11",
+      "type": "gnd",
+      "props": {},
+      "x": 1600,
+      "y": 140,
+      "rot": 0
+    },
+    {
+      "id": "gate25",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3840,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "r7",
+      "type": "resistor",
+      "props": {
+        "value": 1000,
+        "power": "1/4 W"
+      },
+      "x": -3860,
+      "y": -1280,
+      "rot": 0
+    },
+    {
+      "id": "gnd14",
+      "type": "gnd",
+      "props": {},
+      "x": -3760,
+      "y": -1280,
+      "rot": 270
+    },
+    {
+      "id": "not1",
+      "type": "not",
+      "props": {},
+      "x": -3880,
+      "y": -1200,
+      "rot": 90
+    },
+    {
+      "id": "gate26",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3840,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate27",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3660,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate28",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3660,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "not2",
+      "type": "not",
+      "props": {},
+      "x": -3840,
+      "y": -1020,
+      "rot": 0
+    },
+    {
+      "id": "gate29",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3460,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "gate30",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3460,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate31",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3260,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate32",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -3260,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "led7",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -2980,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "r8",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -3100,
+      "y": -1320,
+      "rot": 0
+    },
+    {
+      "id": "gnd13",
+      "type": "gnd",
+      "props": {},
+      "x": -2960,
+      "y": -1240,
+      "rot": 0
+    },
+    {
+      "id": "gate33",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -2400,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "r10",
+      "type": "resistor",
+      "props": {
+        "value": 1000,
+        "power": "1/4 W"
+      },
+      "x": -2420,
+      "y": -1280,
+      "rot": 0
+    },
+    {
+      "id": "gnd17",
+      "type": "gnd",
+      "props": {},
+      "x": -2320,
+      "y": -1280,
+      "rot": 270
+    },
+    {
+      "id": "not3",
+      "type": "not",
+      "props": {},
+      "x": -2440,
+      "y": -1200,
+      "rot": 90
+    },
+    {
+      "id": "gate34",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -2400,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate35",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -2220,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate36",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -2220,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "not4",
+      "type": "not",
+      "props": {},
+      "x": -2400,
+      "y": -1020,
+      "rot": 0
+    },
+    {
+      "id": "gate37",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -2020,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "gate38",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -2020,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate39",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -1820,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate40",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -1820,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "led9",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -1540,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "r11",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -1660,
+      "y": -1320,
+      "rot": 0
+    },
+    {
+      "id": "gnd18",
+      "type": "gnd",
+      "props": {},
+      "x": -1520,
+      "y": -1240,
+      "rot": 0
+    },
+    {
+      "id": "gate41",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -1020,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "r9",
+      "type": "resistor",
+      "props": {
+        "value": 1000,
+        "power": "1/4 W"
+      },
+      "x": -1040,
+      "y": -1280,
+      "rot": 0
+    },
+    {
+      "id": "gnd19",
+      "type": "gnd",
+      "props": {},
+      "x": -940,
+      "y": -1280,
+      "rot": 270
+    },
+    {
+      "id": "not5",
+      "type": "not",
+      "props": {},
+      "x": -1060,
+      "y": -1200,
+      "rot": 90
+    },
+    {
+      "id": "gate42",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -1020,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate43",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -840,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate44",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -840,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "not6",
+      "type": "not",
+      "props": {},
+      "x": -1020,
+      "y": -1020,
+      "rot": 0
+    },
+    {
+      "id": "gate45",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -640,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "gate46",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -640,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate47",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -440,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate48",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -440,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "led8",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -160,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "r12",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -280,
+      "y": -1320,
+      "rot": 0
+    },
+    {
+      "id": "gnd20",
+      "type": "gnd",
+      "props": {},
+      "x": -140,
+      "y": -1240,
+      "rot": 0
+    },
+    {
+      "id": "gate49",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 380,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "r13",
+      "type": "resistor",
+      "props": {
+        "value": 1000,
+        "power": "1/4 W"
+      },
+      "x": 360,
+      "y": -1280,
+      "rot": 0
+    },
+    {
+      "id": "gnd22",
+      "type": "gnd",
+      "props": {},
+      "x": 460,
+      "y": -1280,
+      "rot": 270
+    },
+    {
+      "id": "not7",
+      "type": "not",
+      "props": {},
+      "x": 340,
+      "y": -1200,
+      "rot": 90
+    },
+    {
+      "id": "gate50",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 380,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate51",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 560,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate52",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 560,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "not8",
+      "type": "not",
+      "props": {},
+      "x": 380,
+      "y": -1020,
+      "rot": 0
+    },
+    {
+      "id": "gate53",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 760,
+      "y": -1360,
+      "rot": 0
+    },
+    {
+      "id": "gate54",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 760,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "gate55",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 960,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate56",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": 960,
+      "y": -1140,
+      "rot": 0
+    },
+    {
+      "id": "led10",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": 1240,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "r14",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": 1120,
+      "y": -1320,
+      "rot": 0
+    },
+    {
+      "id": "gnd23",
+      "type": "gnd",
+      "props": {},
+      "x": 1260,
+      "y": -1240,
+      "rot": 0
+    },
+    {
+      "id": "btn5",
+      "type": "pushbutton",
+      "props": {
+        "bounce": "typical"
+      },
+      "x": 1220,
+      "y": -920,
+      "rot": 0
+    },
+    {
+      "id": "vcc14",
+      "type": "vcc",
+      "props": {
+        "voltage": 5
+      },
+      "x": 1340,
+      "y": -860,
+      "rot": 90
+    },
+    {
+      "id": "c1",
+      "type": "capacitor",
+      "props": {
+        "value": 5
+      },
+      "x": 1140,
+      "y": -740,
+      "rot": 0
+    },
+    {
+      "id": "gate57",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -5020,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "r15",
+      "type": "resistor",
+      "props": {
+        "value": 1000,
+        "power": "1/4 W"
+      },
+      "x": -5040,
+      "y": -1260,
+      "rot": 0
+    },
+    {
+      "id": "gnd15",
+      "type": "gnd",
+      "props": {},
+      "x": -4940,
+      "y": -1260,
+      "rot": 270
+    },
+    {
+      "id": "not9",
+      "type": "not",
+      "props": {},
+      "x": -5060,
+      "y": -1180,
+      "rot": 90
+    },
+    {
+      "id": "gate58",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -5020,
+      "y": -1100,
+      "rot": 0
+    },
+    {
+      "id": "gate59",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -4840,
+      "y": -1320,
+      "rot": 0
+    },
+    {
+      "id": "gate60",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -4840,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "not10",
+      "type": "not",
+      "props": {},
+      "x": -5020,
+      "y": -1000,
+      "rot": 0
+    },
+    {
+      "id": "gate61",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -4640,
+      "y": -1340,
+      "rot": 0
+    },
+    {
+      "id": "gate62",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -4640,
+      "y": -1100,
+      "rot": 0
+    },
+    {
+      "id": "gate63",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -4440,
+      "y": -1320,
+      "rot": 0
+    },
+    {
+      "id": "gate64",
+      "type": "gate",
+      "props": {
+        "function": "nand"
+      },
+      "x": -4440,
+      "y": -1120,
+      "rot": 0
+    },
+    {
+      "id": "led11",
+      "type": "led",
+      "props": {
+        "color": "red"
+      },
+      "x": -4160,
+      "y": -1320,
+      "rot": 0
+    },
+    {
+      "id": "r16",
+      "type": "resistor",
+      "props": {
+        "value": 500,
+        "power": "1/4 W"
+      },
+      "x": -4280,
+      "y": -1300,
+      "rot": 0
+    },
+    {
+      "id": "gnd16",
+      "type": "gnd",
+      "props": {},
+      "x": -4140,
+      "y": -1220,
+      "rot": 0
+    }
+  ],
+  "wires": [
+    {
+      "id": "w1",
+      "from": "sw1:2",
+      "to": "gate1:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": 240,
+          "y": -260
+        },
+        {
+          "x": 60,
+          "y": -260
+        },
+        {
+          "x": 60,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "from": "sw1:1",
+      "to": "gnd1:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 220,
+          "y": 260
+        },
+        {
+          "x": 40,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "from": "vcc1:VCC",
+      "to": "sw1:3",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": 140,
+          "y": 280
+        },
+        {
+          "x": 120,
+          "y": 280
+        },
+        {
+          "x": 120,
+          "y": -220
+        },
+        {
+          "x": 260,
+          "y": -220
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "from": "sw5:1",
+      "to": "gnd1:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -80,
+          "y": 300
+        },
+        {
+          "x": 40,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w5",
+      "from": "sw5:3",
+      "to": "vcc1:VCC",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": -40,
+          "y": -200
+        },
+        {
+          "x": 160,
+          "y": -200
+        },
+        {
+          "x": 160,
+          "y": 280
+        },
+        {
+          "x": 140,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "w6",
+      "from": "gate21:Y",
+      "to": "gate1:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -40,
+          "y": 20
+        },
+        {
+          "x": 300,
+          "y": 20
+        },
+        {
+          "x": 300,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "w7",
+      "from": "gate1:Y",
+      "to": "gate2:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": 480,
+          "y": 320
+        }
+      ]
+    },
+    {
+      "id": "w11",
+      "from": "gate1:Y",
+      "to": "gate3:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": 440,
+          "y": 320
+        },
+        {
+          "x": 440,
+          "y": 560
+        }
+      ]
+    },
+    {
+      "id": "w13",
+      "from": "sw1:2",
+      "to": "gate4:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": 240,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "w14",
+      "from": "gate21:Y",
+      "to": "gate4:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -40,
+          "y": 840
+        }
+      ]
+    },
+    {
+      "id": "w15",
+      "from": "gate2:Y",
+      "to": "r1:1",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 640,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "w16",
+      "from": "r1:2",
+      "to": "led1:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 760,
+          "y": 340
+        },
+        {
+          "x": 760,
+          "y": 420
+        },
+        {
+          "x": 800,
+          "y": 420
+        }
+      ]
+    },
+    {
+      "id": "w17",
+      "from": "led1:C",
+      "to": "gnd2:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 820,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "w18",
+      "from": "gate3:Y",
+      "to": "gate5:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 660,
+          "y": 540
+        }
+      ]
+    },
+    {
+      "id": "w19",
+      "from": "gate4:Y",
+      "to": "gate5:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 380,
+          "y": 820
+        },
+        {
+          "x": 380,
+          "y": 580
+        }
+      ]
+    },
+    {
+      "id": "w23",
+      "from": "sw4:2",
+      "to": "gate6:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1040,
+          "y": -240
+        },
+        {
+          "x": -1220,
+          "y": -240
+        },
+        {
+          "x": -1220,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "w24",
+      "from": "sw4:1",
+      "to": "gnd4:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -1060,
+          "y": 220
+        },
+        {
+          "x": -1240,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "w25",
+      "from": "vcc2:VCC",
+      "to": "sw4:3",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": -1140,
+          "y": 240
+        },
+        {
+          "x": -1160,
+          "y": 240
+        },
+        {
+          "x": -1160,
+          "y": -200
+        },
+        {
+          "x": -1020,
+          "y": -200
+        }
+      ]
+    },
+    {
+      "id": "w26",
+      "from": "sw3:1",
+      "to": "gnd4:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -1380,
+          "y": 260
+        },
+        {
+          "x": -1240,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "w27",
+      "from": "sw3:3",
+      "to": "vcc2:VCC",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": -1340,
+          "y": -180
+        },
+        {
+          "x": -1120,
+          "y": -180
+        },
+        {
+          "x": -1120,
+          "y": 240
+        },
+        {
+          "x": -1140,
+          "y": 240
+        }
+      ]
+    },
+    {
+      "id": "w28",
+      "from": "gate22:Y",
+      "to": "gate6:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1340,
+          "y": 20
+        },
+        {
+          "x": -980,
+          "y": 20
+        },
+        {
+          "x": -980,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w29",
+      "from": "gate6:Y",
+      "to": "gate7:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -800,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "w33",
+      "from": "gate6:Y",
+      "to": "gate8:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -840,
+          "y": 280
+        },
+        {
+          "x": -840,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "w35",
+      "from": "sw4:2",
+      "to": "gate9:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1040,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "w36",
+      "from": "gate22:Y",
+      "to": "gate9:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1340,
+          "y": -20
+        },
+        {
+          "x": -1320,
+          "y": -20
+        },
+        {
+          "x": -1320,
+          "y": 800
+        }
+      ]
+    },
+    {
+      "id": "w37",
+      "from": "gate7:Y",
+      "to": "r3:1",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -640,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w38",
+      "from": "r3:2",
+      "to": "led3:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -520,
+          "y": 300
+        },
+        {
+          "x": -520,
+          "y": 340
+        },
+        {
+          "x": -480,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "w39",
+      "from": "led3:C",
+      "to": "gnd5:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -460,
+          "y": 340
+        }
+      ]
+    },
+    {
+      "id": "w40",
+      "from": "gate8:Y",
+      "to": "gate10:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -620,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "w41",
+      "from": "gate9:Y",
+      "to": "gate10:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -900,
+          "y": 780
+        },
+        {
+          "x": -900,
+          "y": 540
+        }
+      ]
+    },
+    {
+      "id": "w20",
+      "from": "gate5:Y",
+      "to": "gate8:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": 800,
+          "y": 560
+        },
+        {
+          "x": 800,
+          "y": 460
+        },
+        {
+          "x": -780,
+          "y": 460
+        },
+        {
+          "x": -780,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "w21",
+      "from": "gate5:Y",
+      "to": "gate7:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": 800,
+          "y": 560
+        },
+        {
+          "x": 800,
+          "y": 620
+        },
+        {
+          "x": -940,
+          "y": 620
+        },
+        {
+          "x": -940,
+          "y": 320
+        }
+      ]
+    },
+    {
+      "id": "w22",
+      "from": "sw6:2",
+      "to": "gate11:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2160,
+          "y": -240
+        },
+        {
+          "x": -2340,
+          "y": -240
+        },
+        {
+          "x": -2340,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "w45",
+      "from": "sw6:1",
+      "to": "gnd3:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -2180,
+          "y": 180
+        },
+        {
+          "x": -2360,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "id": "w46",
+      "from": "vcc3:VCC",
+      "to": "sw6:3",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": -2260,
+          "y": 280
+        },
+        {
+          "x": -2140,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "w47",
+      "from": "sw2:1",
+      "to": "gnd3:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -2500,
+          "y": 220
+        },
+        {
+          "x": -2360,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "w48",
+      "from": "sw2:3",
+      "to": "vcc3:VCC",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": -2460,
+          "y": -260
+        },
+        {
+          "x": -2300,
+          "y": -260
+        },
+        {
+          "x": -2300,
+          "y": 200
+        },
+        {
+          "x": -2260,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "w49",
+      "from": "gate23:Y",
+      "to": "gate11:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2460,
+          "y": -20
+        },
+        {
+          "x": -2100,
+          "y": -20
+        },
+        {
+          "x": -2100,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "w50",
+      "from": "gate11:Y",
+      "to": "gate12:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -1920,
+          "y": 240
+        }
+      ]
+    },
+    {
+      "id": "w54",
+      "from": "gate11:Y",
+      "to": "gate13:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -1960,
+          "y": 240
+        },
+        {
+          "x": -1960,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "w56",
+      "from": "sw6:2",
+      "to": "gate14:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2160,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "w57",
+      "from": "gate23:Y",
+      "to": "gate14:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2460,
+          "y": 20
+        },
+        {
+          "x": -2440,
+          "y": 20
+        },
+        {
+          "x": -2440,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "id": "w58",
+      "from": "gate12:Y",
+      "to": "r2:1",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -1760,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "w59",
+      "from": "r2:2",
+      "to": "led2:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -1640,
+          "y": 260
+        },
+        {
+          "x": -1640,
+          "y": 300
+        },
+        {
+          "x": -1600,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w60",
+      "from": "led2:C",
+      "to": "gnd7:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -1580,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w61",
+      "from": "gate13:Y",
+      "to": "gate15:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -1740,
+          "y": 460
+        }
+      ]
+    },
+    {
+      "id": "w62",
+      "from": "gate14:Y",
+      "to": "gate15:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2020,
+          "y": 740
+        },
+        {
+          "x": -2020,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "w30",
+      "from": "gate10:Y",
+      "to": "gate13:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -480,
+          "y": 520
+        },
+        {
+          "x": -480,
+          "y": 580
+        },
+        {
+          "x": -1900,
+          "y": 580
+        },
+        {
+          "x": -1900,
+          "y": 440
+        }
+      ]
+    },
+    {
+      "id": "w31",
+      "from": "gate10:Y",
+      "to": "gate12:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -480,
+          "y": 520
+        },
+        {
+          "x": -480,
+          "y": 380
+        },
+        {
+          "x": -1900,
+          "y": 380
+        },
+        {
+          "x": -1900,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "w32",
+      "from": "sw8:2",
+      "to": "gate16:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -3320,
+          "y": -20
+        },
+        {
+          "x": -3380,
+          "y": -20
+        },
+        {
+          "x": -3380,
+          "y": 240
+        }
+      ]
+    },
+    {
+      "id": "w66",
+      "from": "sw8:1",
+      "to": "gnd6:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -3340,
+          "y": -220
+        },
+        {
+          "x": -3520,
+          "y": -220
+        }
+      ]
+    },
+    {
+      "id": "w67",
+      "from": "vcc4:VCC",
+      "to": "sw8:3",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": -3420,
+          "y": 300
+        },
+        {
+          "x": -3300,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w68",
+      "from": "sw7:1",
+      "to": "gnd6:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -3680,
+          "y": -240
+        },
+        {
+          "x": -3520,
+          "y": -240
+        }
+      ]
+    },
+    {
+      "id": "w69",
+      "from": "sw7:3",
+      "to": "vcc4:VCC",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": -3640,
+          "y": -200
+        },
+        {
+          "x": -3680,
+          "y": -200
+        },
+        {
+          "x": -3680,
+          "y": 220
+        },
+        {
+          "x": -3420,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "id": "w70",
+      "from": "gate24:Y",
+      "to": "gate16:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -3640,
+          "y": 20
+        },
+        {
+          "x": -3260,
+          "y": 20
+        },
+        {
+          "x": -3260,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "w71",
+      "from": "gate16:Y",
+      "to": "gate17:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -3080,
+          "y": 260
+        }
+      ]
+    },
+    {
+      "id": "w75",
+      "from": "gate16:Y",
+      "to": "gate18:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -3120,
+          "y": 260
+        },
+        {
+          "x": -3120,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "w77",
+      "from": "sw8:2",
+      "to": "gate19:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -3320,
+          "y": 740
+        }
+      ]
+    },
+    {
+      "id": "w78",
+      "from": "gate24:Y",
+      "to": "gate19:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -3640,
+          "y": 780
+        }
+      ]
+    },
+    {
+      "id": "w79",
+      "from": "gate17:Y",
+      "to": "r4:1",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2920,
+          "y": 280
+        }
+      ]
+    },
+    {
+      "id": "w80",
+      "from": "r4:2",
+      "to": "led4:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2800,
+          "y": 280
+        },
+        {
+          "x": -2800,
+          "y": 320
+        },
+        {
+          "x": -2760,
+          "y": 320
+        }
+      ]
+    },
+    {
+      "id": "w81",
+      "from": "led4:C",
+      "to": "gnd9:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -2740,
+          "y": 320
+        }
+      ]
+    },
+    {
+      "id": "w82",
+      "from": "gate18:Y",
+      "to": "gate20:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2900,
+          "y": 480
+        }
+      ]
+    },
+    {
+      "id": "w83",
+      "from": "gate19:Y",
+      "to": "gate20:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2900,
+          "y": 760
+        },
+        {
+          "x": -2900,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "w84",
+      "from": "r6:2",
+      "to": "led6:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2640,
+          "y": 500
+        },
+        {
+          "x": -2640,
+          "y": 580
+        },
+        {
+          "x": -2600,
+          "y": 580
+        }
+      ]
+    },
+    {
+      "id": "w85",
+      "from": "led6:C",
+      "to": "gnd10:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -2580,
+          "y": 540
+        }
+      ]
+    },
+    {
+      "id": "w86",
+      "from": "gate20:Y",
+      "to": "r6:1",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2760,
+          "y": 500
+        }
+      ]
+    },
+    {
+      "id": "w34",
+      "from": "gate15:Y",
+      "to": "gate18:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -1600,
+          "y": 480
+        },
+        {
+          "x": -1600,
+          "y": 540
+        },
+        {
+          "x": -3060,
+          "y": 540
+        },
+        {
+          "x": -3060,
+          "y": 460
+        }
+      ]
+    },
+    {
+      "id": "w42",
+      "from": "gate15:Y",
+      "to": "gate17:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -1600,
+          "y": 480
+        },
+        {
+          "x": -1600,
+          "y": 340
+        },
+        {
+          "x": -3060,
+          "y": 340
+        },
+        {
+          "x": -3060,
+          "y": 300
+        }
+      ]
+    },
+    {
+      "id": "w43",
+      "from": "sw10:3",
+      "to": "vcc5:VCC",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": 1160,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "w44",
+      "from": "gnd8:GND",
+      "to": "sw10:1",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 1120,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "w8",
+      "from": "sw10:2",
+      "to": "gate2:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": 1140,
+          "y": 380
+        },
+        {
+          "x": 460,
+          "y": 380
+        },
+        {
+          "x": 460,
+          "y": 360
+        }
+      ]
+    },
+    {
+      "id": "w9",
+      "from": "sw10:2",
+      "to": "gate3:A",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": 1140,
+          "y": 500
+        },
+        {
+          "x": 500,
+          "y": 500
+        },
+        {
+          "x": 500,
+          "y": 520
+        }
+      ]
+    },
+    {
+      "id": "w10",
+      "from": "sw3:2",
+      "to": "gate22:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1360,
+          "y": -200
+        }
+      ]
+    },
+    {
+      "id": "w12",
+      "from": "sw10:2",
+      "to": "gate22:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 1140,
+          "y": 180
+        },
+        {
+          "x": -1280,
+          "y": 180
+        },
+        {
+          "x": -1280,
+          "y": -160
+        },
+        {
+          "x": -1320,
+          "y": -160
+        }
+      ]
+    },
+    {
+      "id": "w51",
+      "from": "sw5:2",
+      "to": "gate21:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -60,
+          "y": -220
+        }
+      ]
+    },
+    {
+      "id": "w52",
+      "from": "sw10:2",
+      "to": "gate21:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 1140,
+          "y": 140
+        },
+        {
+          "x": 1180,
+          "y": 140
+        },
+        {
+          "x": 1180,
+          "y": -160
+        },
+        {
+          "x": -20,
+          "y": -160
+        }
+      ]
+    },
+    {
+      "id": "w53",
+      "from": "sw2:2",
+      "to": "gate23:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2480,
+          "y": -200
+        }
+      ]
+    },
+    {
+      "id": "w55",
+      "from": "sw10:2",
+      "to": "gate23:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 1140,
+          "y": 140
+        },
+        {
+          "x": -2400,
+          "y": 140
+        },
+        {
+          "x": -2400,
+          "y": -160
+        },
+        {
+          "x": -2440,
+          "y": -160
+        }
+      ]
+    },
+    {
+      "id": "w63",
+      "from": "sw7:2",
+      "to": "gate24:B",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -3660,
+          "y": -200
+        }
+      ]
+    },
+    {
+      "id": "w64",
+      "from": "sw10:2",
+      "to": "gate24:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 1140,
+          "y": 140
+        },
+        {
+          "x": -3600,
+          "y": 140
+        },
+        {
+          "x": -3600,
+          "y": -160
+        },
+        {
+          "x": -3620,
+          "y": -160
+        }
+      ]
+    },
+    {
+      "id": "w65",
+      "from": "r5:2",
+      "to": "led5:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 1540,
+          "y": 100
+        },
+        {
+          "x": 1540,
+          "y": 180
+        },
+        {
+          "x": 1580,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "id": "w72",
+      "from": "sw10:2",
+      "to": "r5:1",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 1140,
+          "y": 220
+        },
+        {
+          "x": 1420,
+          "y": 220
+        },
+        {
+          "x": 1420,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "w73",
+      "from": "led5:C",
+      "to": "gnd11:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 1600,
+          "y": 140
+        },
+        {
+          "x": 1620,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "id": "w88",
+      "from": "gate17:Y",
+      "to": "gate25:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2920,
+          "y": 280
+        },
+        {
+          "x": -2920,
+          "y": -1360
+        },
+        {
+          "x": -3860,
+          "y": -1360
+        },
+        {
+          "x": -3860,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w90",
+      "from": "btn5:1b",
+      "to": "gate25:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -3980,
+          "y": -840
+        },
+        {
+          "x": -3980,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w92",
+      "from": "gate25:B",
+      "to": "r7:1",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -3900,
+          "y": -1300
+        },
+        {
+          "x": -3900,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w94",
+      "from": "r7:2",
+      "to": "gnd14:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -3760,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w95",
+      "from": "gate17:Y",
+      "to": "not1:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2940,
+          "y": -460
+        },
+        {
+          "x": -3460,
+          "y": -460
+        },
+        {
+          "x": -3460,
+          "y": -1240
+        },
+        {
+          "x": -3840,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w96",
+      "from": "not1:Y",
+      "to": "gate26:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -3840,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w97",
+      "from": "btn5:1b",
+      "to": "gate26:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -3940,
+          "y": -840
+        },
+        {
+          "x": -3940,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w87",
+      "from": "gate25:Y",
+      "to": "gate27:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -3700,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w89",
+      "from": "gate26:Y",
+      "to": "gate28:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -3700,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w99",
+      "from": "btn5:1b",
+      "to": "not2:A",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -3900,
+          "y": -840
+        },
+        {
+          "x": -3900,
+          "y": -1000
+        }
+      ]
+    },
+    {
+      "id": "w100",
+      "from": "gate27:Y",
+      "to": "gate29:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -3500,
+          "y": -1300
+        },
+        {
+          "x": -3500,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w101",
+      "from": "gate28:Y",
+      "to": "gate30:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -3540,
+          "y": -1100
+        },
+        {
+          "x": -3540,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w102",
+      "from": "not2:Y",
+      "to": "gate30:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -3500,
+          "y": -1000
+        },
+        {
+          "x": -3500,
+          "y": -1100
+        }
+      ]
+    },
+    {
+      "id": "w103",
+      "from": "not2:Y",
+      "to": "gate29:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -3760,
+          "y": -1020
+        },
+        {
+          "x": -3520,
+          "y": -1020
+        },
+        {
+          "x": -3520,
+          "y": -1260
+        },
+        {
+          "x": -3480,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w104",
+      "from": "gate30:Y",
+      "to": "gate32:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -3300,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w105",
+      "from": "gate29:Y",
+      "to": "gate31:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -3300,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w106",
+      "from": "gate31:Y",
+      "to": "gate32:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -3140,
+          "y": -1300
+        },
+        {
+          "x": -3280,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w93",
+      "from": "gate27:Y",
+      "to": "gate28:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -3540,
+          "y": -1300
+        },
+        {
+          "x": -3680,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w98",
+      "from": "gate28:Y",
+      "to": "gate27:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -3540,
+          "y": -1100
+        },
+        {
+          "x": -3680,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w107",
+      "from": "gate32:Y",
+      "to": "gate31:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -3140,
+          "y": -1100
+        },
+        {
+          "x": -3280,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w108",
+      "from": "r8:2",
+      "to": "led7:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -3000,
+          "y": -1300
+        },
+        {
+          "x": -3000,
+          "y": -1260
+        },
+        {
+          "x": -2960,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w109",
+      "from": "led7:C",
+      "to": "gnd13:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -2940,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w113",
+      "from": "gate31:Y",
+      "to": "r8:1",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -3120,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w116",
+      "from": "gate12:Y",
+      "to": "gate33:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1780,
+          "y": -700
+        },
+        {
+          "x": -2500,
+          "y": -700
+        },
+        {
+          "x": -2500,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w117",
+      "from": "btn5:1b",
+      "to": "gate33:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -2540,
+          "y": -840
+        },
+        {
+          "x": -2540,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w118",
+      "from": "gate33:B",
+      "to": "r10:1",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -2460,
+          "y": -1300
+        },
+        {
+          "x": -2460,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w120",
+      "from": "r10:2",
+      "to": "gnd17:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -2320,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w121",
+      "from": "gate12:Y",
+      "to": "not3:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1760,
+          "y": 260
+        },
+        {
+          "x": -1760,
+          "y": 240
+        },
+        {
+          "x": -1720,
+          "y": 240
+        },
+        {
+          "x": -1720,
+          "y": -1240
+        },
+        {
+          "x": -2400,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w122",
+      "from": "not3:Y",
+      "to": "gate34:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2400,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w123",
+      "from": "btn5:1b",
+      "to": "gate34:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -2500,
+          "y": -840
+        },
+        {
+          "x": -2500,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w124",
+      "from": "gate33:Y",
+      "to": "gate35:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -2260,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w125",
+      "from": "gate34:Y",
+      "to": "gate36:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -2260,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w126",
+      "from": "btn5:1b",
+      "to": "not4:A",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -2460,
+          "y": -840
+        },
+        {
+          "x": -2460,
+          "y": -1000
+        }
+      ]
+    },
+    {
+      "id": "w127",
+      "from": "gate35:Y",
+      "to": "gate37:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2060,
+          "y": -1300
+        },
+        {
+          "x": -2060,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w128",
+      "from": "gate36:Y",
+      "to": "gate38:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2100,
+          "y": -1100
+        },
+        {
+          "x": -2100,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w129",
+      "from": "not4:Y",
+      "to": "gate38:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2060,
+          "y": -1000
+        },
+        {
+          "x": -2060,
+          "y": -1100
+        }
+      ]
+    },
+    {
+      "id": "w130",
+      "from": "not4:Y",
+      "to": "gate37:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -2320,
+          "y": -1020
+        },
+        {
+          "x": -2080,
+          "y": -1020
+        },
+        {
+          "x": -2080,
+          "y": -1260
+        },
+        {
+          "x": -2040,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w131",
+      "from": "gate38:Y",
+      "to": "gate40:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -1860,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w132",
+      "from": "gate37:Y",
+      "to": "gate39:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -1860,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w133",
+      "from": "gate39:Y",
+      "to": "gate40:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -1700,
+          "y": -1300
+        },
+        {
+          "x": -1840,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w134",
+      "from": "gate35:Y",
+      "to": "gate36:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -2100,
+          "y": -1300
+        },
+        {
+          "x": -2240,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w135",
+      "from": "gate36:Y",
+      "to": "gate35:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -2100,
+          "y": -1100
+        },
+        {
+          "x": -2240,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w136",
+      "from": "gate40:Y",
+      "to": "gate39:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -1700,
+          "y": -1100
+        },
+        {
+          "x": -1840,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w137",
+      "from": "r11:2",
+      "to": "led9:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -1560,
+          "y": -1300
+        },
+        {
+          "x": -1560,
+          "y": -1260
+        },
+        {
+          "x": -1520,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w138",
+      "from": "led9:C",
+      "to": "gnd18:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -1500,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w142",
+      "from": "gate39:Y",
+      "to": "r11:1",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1680,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w112",
+      "from": "gate7:Y",
+      "to": "gate41:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -660,
+          "y": -740
+        },
+        {
+          "x": -1120,
+          "y": -740
+        },
+        {
+          "x": -1120,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w139",
+      "from": "btn5:1b",
+      "to": "gate41:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -1160,
+          "y": -840
+        },
+        {
+          "x": -1160,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w140",
+      "from": "gate41:B",
+      "to": "r9:1",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -1080,
+          "y": -1300
+        },
+        {
+          "x": -1080,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w143",
+      "from": "r9:2",
+      "to": "gnd19:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -940,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w144",
+      "from": "gate7:Y",
+      "to": "not5:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -640,
+          "y": 300
+        },
+        {
+          "x": -640,
+          "y": -1240
+        },
+        {
+          "x": -1020,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w145",
+      "from": "not5:Y",
+      "to": "gate42:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -1020,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w146",
+      "from": "btn5:1b",
+      "to": "gate42:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -1120,
+          "y": -840
+        },
+        {
+          "x": -1120,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w147",
+      "from": "gate41:Y",
+      "to": "gate43:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -880,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w148",
+      "from": "gate42:Y",
+      "to": "gate44:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -880,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w149",
+      "from": "btn5:1b",
+      "to": "not6:A",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -1080,
+          "y": -840
+        },
+        {
+          "x": -1080,
+          "y": -1000
+        }
+      ]
+    },
+    {
+      "id": "w150",
+      "from": "gate43:Y",
+      "to": "gate45:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -680,
+          "y": -1300
+        },
+        {
+          "x": -680,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w151",
+      "from": "gate44:Y",
+      "to": "gate46:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -720,
+          "y": -1100
+        },
+        {
+          "x": -720,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w152",
+      "from": "not6:Y",
+      "to": "gate46:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -680,
+          "y": -1000
+        },
+        {
+          "x": -680,
+          "y": -1100
+        }
+      ]
+    },
+    {
+      "id": "w153",
+      "from": "not6:Y",
+      "to": "gate45:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -940,
+          "y": -1020
+        },
+        {
+          "x": -700,
+          "y": -1020
+        },
+        {
+          "x": -700,
+          "y": -1260
+        },
+        {
+          "x": -660,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w154",
+      "from": "gate46:Y",
+      "to": "gate48:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -480,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w155",
+      "from": "gate45:Y",
+      "to": "gate47:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -480,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w156",
+      "from": "gate47:Y",
+      "to": "gate48:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -320,
+          "y": -1300
+        },
+        {
+          "x": -460,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w157",
+      "from": "gate43:Y",
+      "to": "gate44:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -720,
+          "y": -1300
+        },
+        {
+          "x": -860,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w158",
+      "from": "gate44:Y",
+      "to": "gate43:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -720,
+          "y": -1100
+        },
+        {
+          "x": -860,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w159",
+      "from": "gate48:Y",
+      "to": "gate47:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -320,
+          "y": -1100
+        },
+        {
+          "x": -460,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w160",
+      "from": "r12:2",
+      "to": "led8:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -180,
+          "y": -1300
+        },
+        {
+          "x": -180,
+          "y": -1260
+        },
+        {
+          "x": -140,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w161",
+      "from": "led8:C",
+      "to": "gnd20:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -120,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w165",
+      "from": "gate47:Y",
+      "to": "r12:1",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -300,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w164",
+      "from": "gate2:Y",
+      "to": "gate49:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": 580,
+          "y": 300
+        },
+        {
+          "x": 580,
+          "y": -760
+        },
+        {
+          "x": 280,
+          "y": -760
+        },
+        {
+          "x": 280,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w166",
+      "from": "btn5:1b",
+      "to": "gate49:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": 240,
+          "y": -840
+        },
+        {
+          "x": 240,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w167",
+      "from": "gate49:B",
+      "to": "r13:1",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 320,
+          "y": -1300
+        },
+        {
+          "x": 320,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w169",
+      "from": "r13:2",
+      "to": "gnd22:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 460,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w170",
+      "from": "gate2:Y",
+      "to": "not7:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": 620,
+          "y": -1240
+        },
+        {
+          "x": 380,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w171",
+      "from": "not7:Y",
+      "to": "gate50:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": 380,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w172",
+      "from": "btn5:1b",
+      "to": "gate50:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": 280,
+          "y": -840
+        },
+        {
+          "x": 280,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w173",
+      "from": "gate49:Y",
+      "to": "gate51:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 520,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w174",
+      "from": "gate50:Y",
+      "to": "gate52:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 520,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w175",
+      "from": "btn5:1b",
+      "to": "not8:A",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": 320,
+          "y": -840
+        },
+        {
+          "x": 320,
+          "y": -1000
+        }
+      ]
+    },
+    {
+      "id": "w176",
+      "from": "gate51:Y",
+      "to": "gate53:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 720,
+          "y": -1300
+        },
+        {
+          "x": 720,
+          "y": -1340
+        }
+      ]
+    },
+    {
+      "id": "w177",
+      "from": "gate52:Y",
+      "to": "gate54:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 680,
+          "y": -1100
+        },
+        {
+          "x": 680,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w178",
+      "from": "not8:Y",
+      "to": "gate54:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 720,
+          "y": -1000
+        },
+        {
+          "x": 720,
+          "y": -1100
+        }
+      ]
+    },
+    {
+      "id": "w179",
+      "from": "not8:Y",
+      "to": "gate53:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 460,
+          "y": -1020
+        },
+        {
+          "x": 700,
+          "y": -1020
+        },
+        {
+          "x": 700,
+          "y": -1260
+        },
+        {
+          "x": 740,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w180",
+      "from": "gate54:Y",
+      "to": "gate56:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": 920,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w181",
+      "from": "gate53:Y",
+      "to": "gate55:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": 920,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w182",
+      "from": "gate55:Y",
+      "to": "gate56:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": 1080,
+          "y": -1300
+        },
+        {
+          "x": 940,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w183",
+      "from": "gate51:Y",
+      "to": "gate52:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 680,
+          "y": -1300
+        },
+        {
+          "x": 540,
+          "y": -1120
+        }
+      ]
+    },
+    {
+      "id": "w184",
+      "from": "gate52:Y",
+      "to": "gate51:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": 680,
+          "y": -1100
+        },
+        {
+          "x": 540,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w185",
+      "from": "gate56:Y",
+      "to": "gate55:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": 1080,
+          "y": -1100
+        },
+        {
+          "x": 940,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w186",
+      "from": "r14:2",
+      "to": "led10:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": 1220,
+          "y": -1300
+        },
+        {
+          "x": 1220,
+          "y": -1260
+        },
+        {
+          "x": 1260,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w187",
+      "from": "led10:C",
+      "to": "gnd23:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 1280,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w191",
+      "from": "gate55:Y",
+      "to": "r14:1",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": 1100,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w188",
+      "from": "btn5:2b",
+      "to": "vcc14:VCC",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": 1340,
+          "y": -840
+        }
+      ]
+    },
+    {
+      "id": "w74",
+      "from": "c1:2",
+      "to": "vcc14:VCC",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": 1180,
+          "y": -660
+        },
+        {
+          "x": 1340,
+          "y": -660
+        }
+      ]
+    },
+    {
+      "id": "w76",
+      "from": "c1:1",
+      "to": "btn5:1b",
+      "color": "#1f9d55",
+      "bends": [
+        {
+          "x": 1160,
+          "y": -620
+        },
+        {
+          "x": 1200,
+          "y": -620
+        },
+        {
+          "x": 1200,
+          "y": -840
+        }
+      ]
+    },
+    {
+      "id": "w111",
+      "from": "gate20:Y",
+      "to": "gate57:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2780,
+          "y": 560
+        },
+        {
+          "x": -5120,
+          "y": 560
+        },
+        {
+          "x": -5120,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w114",
+      "from": "btn5:1b",
+      "to": "gate57:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -5160,
+          "y": -840
+        },
+        {
+          "x": -5160,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w115",
+      "from": "gate57:B",
+      "to": "r15:1",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -5080,
+          "y": -1280
+        },
+        {
+          "x": -5080,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w141",
+      "from": "r15:2",
+      "to": "gnd15:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -4940,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w162",
+      "from": "gate20:Y",
+      "to": "not9:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -2720,
+          "y": 500
+        },
+        {
+          "x": -2720,
+          "y": 460
+        },
+        {
+          "x": -5020,
+          "y": 460
+        },
+        {
+          "x": -5020,
+          "y": -1220
+        }
+      ]
+    },
+    {
+      "id": "w163",
+      "from": "not9:Y",
+      "to": "gate58:A",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -5020,
+          "y": -1100
+        }
+      ]
+    },
+    {
+      "id": "w168",
+      "from": "btn5:1b",
+      "to": "gate58:B",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -5120,
+          "y": -840
+        },
+        {
+          "x": -5120,
+          "y": -1040
+        }
+      ]
+    },
+    {
+      "id": "w189",
+      "from": "gate57:Y",
+      "to": "gate59:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -4880,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w190",
+      "from": "gate58:Y",
+      "to": "gate60:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -4880,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w192",
+      "from": "btn5:1b",
+      "to": "not10:A",
+      "color": "#e8a33d",
+      "bends": [
+        {
+          "x": -5080,
+          "y": -840
+        },
+        {
+          "x": -5080,
+          "y": -980
+        }
+      ]
+    },
+    {
+      "id": "w193",
+      "from": "gate59:Y",
+      "to": "gate61:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -4680,
+          "y": -1280
+        },
+        {
+          "x": -4680,
+          "y": -1320
+        }
+      ]
+    },
+    {
+      "id": "w194",
+      "from": "gate60:Y",
+      "to": "gate62:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -4720,
+          "y": -1080
+        },
+        {
+          "x": -4720,
+          "y": -1040
+        }
+      ]
+    },
+    {
+      "id": "w195",
+      "from": "not10:Y",
+      "to": "gate62:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -4680,
+          "y": -980
+        },
+        {
+          "x": -4680,
+          "y": -1080
+        }
+      ]
+    },
+    {
+      "id": "w196",
+      "from": "not10:Y",
+      "to": "gate61:B",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -4940,
+          "y": -1000
+        },
+        {
+          "x": -4700,
+          "y": -1000
+        },
+        {
+          "x": -4700,
+          "y": -1240
+        },
+        {
+          "x": -4660,
+          "y": -1280
+        }
+      ]
+    },
+    {
+      "id": "w197",
+      "from": "gate62:Y",
+      "to": "gate64:B",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -4480,
+          "y": -1060
+        }
+      ]
+    },
+    {
+      "id": "w198",
+      "from": "gate61:Y",
+      "to": "gate63:A",
+      "color": "#d94f9c",
+      "bends": [
+        {
+          "x": -4480,
+          "y": -1300
+        }
+      ]
+    },
+    {
+      "id": "w199",
+      "from": "gate63:Y",
+      "to": "gate64:A",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -4320,
+          "y": -1280
+        },
+        {
+          "x": -4460,
+          "y": -1100
+        }
+      ]
+    },
+    {
+      "id": "w200",
+      "from": "gate59:Y",
+      "to": "gate60:A",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -4720,
+          "y": -1280
+        },
+        {
+          "x": -4860,
+          "y": -1100
+        }
+      ]
+    },
+    {
+      "id": "w201",
+      "from": "gate60:Y",
+      "to": "gate59:B",
+      "color": "#8a5cf5",
+      "bends": [
+        {
+          "x": -4720,
+          "y": -1080
+        },
+        {
+          "x": -4860,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w202",
+      "from": "gate64:Y",
+      "to": "gate63:B",
+      "color": "#7a8290",
+      "bends": [
+        {
+          "x": -4320,
+          "y": -1080
+        },
+        {
+          "x": -4460,
+          "y": -1260
+        }
+      ]
+    },
+    {
+      "id": "w203",
+      "from": "r16:2",
+      "to": "led11:A",
+      "color": "#20b2c6",
+      "bends": [
+        {
+          "x": -4180,
+          "y": -1280
+        },
+        {
+          "x": -4180,
+          "y": -1240
+        },
+        {
+          "x": -4140,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w204",
+      "from": "led11:C",
+      "to": "gnd16:GND",
+      "color": "#2f6fed",
+      "bends": [
+        {
+          "x": -4120,
+          "y": -1240
+        }
+      ]
+    },
+    {
+      "id": "w208",
+      "from": "gate63:Y",
+      "to": "r16:1",
+      "color": "#e14b4b",
+      "bends": [
+        {
+          "x": -4300,
+          "y": -1280
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "x": 320,
+      "y": -340,
+      "w": 60,
+      "h": 60,
+      "text": "A",
+      "color": "yellow"
+    },
+    {
+      "id": "n2",
+      "x": -100,
+      "y": -440,
+      "w": 60,
+      "h": 60,
+      "text": "B",
+      "color": "yellow"
+    },
+    {
+      "id": "n3",
+      "x": 1220,
+      "y": 60,
+      "w": 140,
+      "h": 60,
+      "text": "K (Control Line)",
+      "color": "yellow"
+    },
+    {
+      "id": "n4",
+      "x": -1060,
+      "y": -400,
+      "w": 60,
+      "h": 60,
+      "text": "A",
+      "color": "yellow"
+    },
+    {
+      "id": "n5",
+      "x": -2200,
+      "y": -420,
+      "w": 60,
+      "h": 60,
+      "text": "A",
+      "color": "yellow"
+    },
+    {
+      "id": "n6",
+      "x": -3340,
+      "y": -400,
+      "w": 60,
+      "h": 60,
+      "text": "A",
+      "color": "yellow"
+    },
+    {
+      "id": "n7",
+      "x": -1380,
+      "y": -420,
+      "w": 60,
+      "h": 60,
+      "text": "B",
+      "color": "yellow"
+    },
+    {
+      "id": "n8",
+      "x": -2500,
+      "y": -420,
+      "w": 60,
+      "h": 60,
+      "text": "B",
+      "color": "yellow"
+    },
+    {
+      "id": "n9",
+      "x": -3680,
+      "y": -400,
+      "w": 60,
+      "h": 60,
+      "text": "B",
+      "color": "yellow"
+    },
+    {
+      "id": "n11",
+      "x": 1240,
+      "y": -1000,
+      "w": 60,
+      "h": 60,
+      "text": "Clk",
+      "color": "yellow"
+    },
+    {
+      "id": "n12",
+      "x": -2980,
+      "y": -1420,
+      "w": 60,
+      "h": 60,
+      "text": "Q",
+      "color": "yellow"
+    },
+    {
+      "id": "n13",
+      "x": -3120,
+      "y": -1120,
+      "w": 60,
+      "h": 60,
+      "text": "Q'",
+      "color": "yellow"
+    }
+  ],
+  "projects": {
+    "*": {
+      "files": {
+        "sketch.ino": "// Mokxi.\n// This circuit has no board, so Run simulates the parts only.\n// Add a board and pick a program in its Firmware panel: the editor then shows\n// that program's source, and Run builds what you type here for that board.\n\nvoid setup() {\n  pinMode(13, OUTPUT);\n  Serial.begin(115200);\n}\n\nvoid loop() {\n  digitalWrite(13, HIGH);\n  delay(500);\n  digitalWrite(13, LOW);\n  delay(500);\n}\n"
+      },
+      "main": "sketch.ino"
+    }
+  }
+}
